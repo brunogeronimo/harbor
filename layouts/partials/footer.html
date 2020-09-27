@@ -2,14 +2,12 @@
   {{partial "social.html" .}}
   <div class="container">
     <p class="credits copyright">
-      <a href="{{ .Site.BaseURL }}about">{{ .Site.Author.name }}</a>
-      &nbsp;&copy;
+      &copy;
       {{ .Site.LastChange.Format "2006" }}
-      {{ if .Site.Title }}
-      &nbsp;/&nbsp;
-      <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+      {{ if isset .Params "authors" }}
+        {{ delimit .Params.authors ", " }}.
       {{ end }}
-      &nbsp;&ndash;&nbsp;
+      {{ .Site.Copyright | safeHTML }}
       <i class="fas fa-moon" id="dark-mode-toggle"></i>
 
     <p class="credits theme-by">
