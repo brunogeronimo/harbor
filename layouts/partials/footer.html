@@ -7,7 +7,7 @@
       {{ if isset .Params "authors" }}
         {{ delimit .Params.authors ", " }}.
       {{ else if isset .Site.Author "name" }}
-        {{ .Site.Author.name }}
+        {{ .Site.Author.name }}.
       {{ end }}
       {{ .Site.Copyright | safeHTML }}
       <i class="fas fa-moon" id="dark-mode-toggle"></i>
