@@ -8,3 +8,7 @@ other = "Read More"
 other = "Search..."
 [powered-by]
 other = "Powered By"
+[theme]
+other = "theme"
+[adapted]
+other = "Adapted"
