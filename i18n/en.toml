@@ -12,3 +12,7 @@ other = "Powered By"
 other = "theme"
 [adapted]
 other = "Adapted"
+[reviewed-by]
+other = "Reviewed by"
+[translated-by]
+other = "Translated by"

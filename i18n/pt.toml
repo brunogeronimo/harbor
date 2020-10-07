@@ -12,3 +12,7 @@ other = "Desenvolvido com"
 other = "tema"
 [adapted]
 other = "Adaptado"
+[reviewed-by]
+other = "Revisado por"
+[translated-by]
+other = "Traduzido por"
